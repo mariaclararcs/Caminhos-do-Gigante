@@ -5,6 +5,8 @@ $request_uri = $_SERVER['REQUEST_URI'];
 
 $rotas = [
     '/' => 'HomeController@index',
+    '/ecoturismo' => 'EcoturismoController@index',
+    '/trilhas' => 'TrilhasController@index',
 ];
 
 if(array_key_exists($request_uri, $rotas)){
