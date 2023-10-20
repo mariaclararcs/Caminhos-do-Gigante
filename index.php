@@ -17,4 +17,4 @@ if(array_key_exists($request_uri, $rotas)){
 }else{
     header("HTTP/1.0 404 Not Found");
     echo 'Página não encontrada.';
-}
+}//
