@@ -2,6 +2,7 @@
 
 class HomeController{
     public function index(){
-        echo 'Página inicial.';
+        $viewContent = file_get_contents("views/Home.php");
+        echo $viewContent;
     }
 }
