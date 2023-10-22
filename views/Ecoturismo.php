@@ -49,8 +49,8 @@
                     <h1 class="fw-light">Ecoturismo</h1>
                     <p class="lead text-body-secondary">Verifique aqui algumas hospedagens, restaurantes e pontos turísticos para visitar durante o seu turismo até a nossa reserva florestal.</p>
                     <p>
-                        <a href="#" class="btn btn-primary my-2">Trilhas</a>
-                        <a href="#" class="btn btn-secondary my-2">Contato</a>
+                        <a href="/trilhas" class="btn btn-primary my-2">Trilhas</a>
+                        <a href="/parceiros" class="btn btn-secondary my-2">Parceiros</a>
                     </p>
                 </div>
             </div>

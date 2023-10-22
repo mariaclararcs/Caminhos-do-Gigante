@@ -7,6 +7,7 @@ $rotas = [
     '/' => 'HomeController@index',
     '/ecoturismo' => 'EcoturismoController@index',
     '/trilhas' => 'TrilhasController@index',
+    '/parceiros' => 'ParceirosController@index',
 ];
 
 if(array_key_exists($request_uri, $rotas)){
