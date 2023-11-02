@@ -29,7 +29,7 @@
                 ],
                 view: new ol.View({
                     center: ol.proj.fromLonLat([longitude, latitude]),
-                    zoom: 4
+                    zoom: 14
                 })
             });
         }
